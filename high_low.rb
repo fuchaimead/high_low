@@ -37,6 +37,9 @@ class HighLow
       else
         puts "You lose"
       end
+    else 
+      puts "invalid option"
+      game
     end 
     game
   end 
