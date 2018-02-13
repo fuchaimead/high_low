@@ -8,4 +8,8 @@ class Card
    @suit = suit
    @color = color
  end
+
+  
+
+  
 end

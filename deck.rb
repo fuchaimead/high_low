@@ -17,6 +17,7 @@ class Deck
   @cards.shuffle
  end
 
+
  def generate_deck
    @suits.each do |suit|
      @ranks.size.times do |i|
@@ -26,4 +27,7 @@ class Deck
      end
    end
  end
+  
+
+
 end
